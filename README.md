@@ -64,6 +64,16 @@ Sensitive information such as passwords, shared secrets, internal credentials, a
   
 ![Network Diagram](Diagram/Network-Diagram.png)
 
-### Network Architecture
+## Network Architecture
+### Phase 1 – Virtualization & Base Infrastructure
+Installed VMware ESXi 8 on Intel NUC hardware
+Created Windows Server 2025 VM
+Configured static IPs and DHCP foundation
+<details>
+<summary><b>Click to view evidence</b></summary>
 
+![ESXi Dashboard](Screenshots/ESXi%20Dashboard.png)
+![ESXi VM List](Screenshots/ESXi-VM-List.png)
+
+</details>
 
