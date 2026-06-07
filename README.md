@@ -59,3 +59,9 @@ The goal of this project was to simulate a real-world enterprise network by comb
 This repository is a portfolio version of my CYB242 Capstone project. The original class report included detailed documentation, configuration evidence, validation screenshots, and troubleshooting notes. This GitHub version summarizes the project in a cleaner format for professional portfolio use.
 
 Sensitive information such as passwords, shared secrets, internal credentials, and full configuration details have been removed or sanitized.
+
+## Network Diagram 
+<details> 
+<summary><b>Click to expand network topology</b></summary>
+![Network Diagram](Diagram/Network-Diagram.png)
+</details>
