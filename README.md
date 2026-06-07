@@ -63,5 +63,7 @@ Sensitive information such as passwords, shared secrets, internal credentials, a
 ## Network Diagram 
 <details> 
 <summary><b>Click to expand network topology</b></summary>
+  
 ![Network Diagram](Diagram/Network-Diagram.png)
+
 </details>
