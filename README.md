@@ -61,9 +61,9 @@ This repository is a portfolio version of my CYB242 Capstone project. The origin
 Sensitive information such as passwords, shared secrets, internal credentials, and full configuration details have been removed or sanitized.
 
 ## Network Diagram 
-<details> 
-<summary><b>Click to expand network topology</b></summary>
   
 ![Network Diagram](Diagram/Network-Diagram.png)
 
-</details>
+### Network Architecture
+
+
