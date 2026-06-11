@@ -107,8 +107,11 @@ Secured unused ports
 Created management access to devices
 
 <details>
+<summary><b>Click to view evidence</b></summary>
 
-  
+![SSH Windows Server to Switch](Screenshots/SSH-WindowsServer-Switch.png)
+![SSH Windows Server to Router](Screenshots/SSH-WindowsServer-Router.png)
+
 </details>
 
 ### Phase 4 – Active Directory & Windows Server Services
@@ -126,5 +129,18 @@ Used PowerShell + CSV for bulk user creation
 ![DHCP Scopes](Screenshots/DHCP-Scopes.png)
 ![DNS Config](Screenshots/DNS-Config.png)
 
+</details>
+
+### Phase 5 – RADIUS / NPS Authentication
+Installed NPS on second domain controller
+Added router and switch as RADIUS clients
+Created policies for Network Engineers and Network Techs
+Used Cisco privilege levels for full vs read-only access
+
+<details>
+<summary><b>Click to view evidence</b></summary>
+
+![NPS Radius Policy](Screenshots/Radius-Policy.png)
+  
 </details>
 
