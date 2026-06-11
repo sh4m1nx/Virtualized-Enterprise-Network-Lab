@@ -98,5 +98,33 @@ Enabled inter-VLAN routing
 
 ![Switch Vlan Output](Screenshots/Switch-Vlan-Output.png)
 ![Switch Trunk Output](Screenshots/Switch-Trunk-Output.png)
+![Router Subintrefaces](Screenshots/Router-Subinterfaces.png)
+</details>
+
+### Phase 3 – Secure Network Device Management
+Configured SSH on router and switch
+Secured unused ports
+Created management access to devices
+
+<details>
+
+  
+</details>
+
+### Phase 4 – Active Directory & Windows Server Services
+Installed AD DS
+Created domain/forest
+Added second domain controller
+Configured DNS, DHCP, OUs, GPOs
+Used PowerShell + CSV for bulk user creation
+
+<details>
+<summary><b>Click to view evidence</b></summary>
+
+![Active Directory OU](Screenshots/Active-Directory-OU.png)
+![Group Policy Config](Screenshots/Group-Policy-Config.png)
+![DHCP Scopes](Screenshots/DHCP-Scopes.png)
+![DNS Config](Screenshots/DNS-Config.png)
+
 </details>
 
