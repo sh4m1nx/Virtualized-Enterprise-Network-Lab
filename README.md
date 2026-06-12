@@ -139,8 +139,12 @@ Used Cisco privilege levels for full vs read-only access
 
 <details>
 <summary><b>Click to view evidence</b></summary>
-
+  
+![NPS Radius Clients](Screenshots/Radius-Clients.png)
 ![NPS Radius Policy](Screenshots/Radius-Policy.png)
+
+![Successful engineer login](Screenshots/engineer-login.png)
+![Successful nettech login](Screenshots/nettech-login.png)
   
 </details>
 
