@@ -178,6 +178,6 @@ Wazuh SIEM/log monitoring with agents
 ![Nagios Dashboard](Screenshots/Nagios-Dashboard.png)
 ![OpenVas Scan Results](Screenshots/OpenVas-Scan-Result.png)
 ![WordPress Site](Screenshots/WordPress-Site.png)
-![Wazuh dashboard with agents](Screenshots/Wazuh-Dashboard.png)
+![Wazuh dashboard with agents](Screenshots/Wazuh-Dashboard-with%20Agents.png)
 
 </details>
