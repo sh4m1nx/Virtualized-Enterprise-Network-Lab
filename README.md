@@ -164,3 +164,20 @@ Used ACLs to restrict access
 ![ACL Config ](Screenshots/ACL-Config.png)
   
 </details>
+
+### Phase 7 – Additional Enterprise/Security Services
+Docker web server
+Nagios monitoring
+OpenVAS vulnerability scanning
+WordPress hosting
+Wazuh SIEM/log monitoring with agents
+
+<details>
+<summary><b>Click to view evidence</b></summary>
+
+![Nagios Dashboard](Screenshots/Nagios-Dashboard.png)
+![OpenVas Scan Results](Screenshots/OpenVas-Scan-Result.png)
+![WordPress Site](Screenshots/WordPress-Site.png)
+![Wazuh dashboard with agents](Screenshots/Wazuh-Dashboard.png)
+
+</details>
