@@ -159,6 +159,7 @@ Used ACLs to restrict access
 <summary><b>Click to view evidence</b></summary>
   
 ![DMZ Website](Screenshots/DMZ-Website.png)
+![HTTPs Certificate Details ](Screenshots/HTTPs-Cert-Details.png)
 ![OSPF Config ](Screenshots/OSPF-config.png)
 ![ACL Config ](Screenshots/ACL-Config.png)
   
