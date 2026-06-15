@@ -148,3 +148,18 @@ Used Cisco privilege levels for full vs read-only access
   
 </details>
 
+### Phase 6 – DMZ, OSPF, ACLs
+Created VLAN 99 DMZ
+Imported CentOS web server appliance
+Hosted custom HTTPS website
+Configured OSPF Area 0
+Used ACLs to restrict access
+
+<details>
+<summary><b>Click to view evidence</b></summary>
+  
+![DMZ Website](Screenshots/DMZ-Website.png)
+![OSPF Config ](Screenshots/OSPF-config.png)
+![ACL Config ](Screenshots/ACL-Config.png)
+  
+</details>
