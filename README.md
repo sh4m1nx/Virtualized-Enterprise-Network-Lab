@@ -82,16 +82,18 @@ Sensitive information such as passwords, shared secrets, internal credentials, a
 - Created multiple VLANs for clients, servers, physical devices, parking lot, and DMZ
 - Configured Cisco switch trunks and router-on-a-stick
 - Enabled inter-VLAN routing
-<details>
-<summary><b>Vlan mapping table</b></summary>
-  VLAN ID 	Name 	Description 	Subnet 
-10 	Classroom Clients 	Physical lab workstations 	10.115.10.0/24 
-20 	Virtual Clients 	VM acting as end-user (Windows 10) 	10.115.20.0/24 
-30 	Virtual Servers 	Infrastructure servers (Windows server 2025)  	10.115.30.0/24 
-40 	Physical devices  	Switch, Router, and ESXi Management 	10.115.40.0/24 
-50 	Parking lot 	Disabled/Unused ports for security 	10.115.50.0/24 
-99 	DMZ 	Isolated external-facing zone 	10.115.99.0/24 
-</details>
+  
+#### Vlan mapping table
+  
+ | VLAN ID | Name | Description | Subnet |
+| --- | --- | --- | --- |
+| 10 | Classroom Clients | Physical lab workstations | 10.115.10.0/24 |
+| 20 | Virtual Clients | VM acting as end-user (Windows 10) | 10.115.20.0/24 |
+| 30 | Virtual Servers | Infrastructure servers (Windows server 2025) | 10.115.30.0/24 |
+| 40 | Physical devices | Switch, Router, and ESXi Management | 10.115.40.0/24 |
+| 50 | Parking lot | Disabled/Unused ports for security | 10.115.50.0/24 |
+| 99 | DMZ | Isolated external-facing zone | 10.115.99.0/24 |
+
 
 <details>
 <summary><b>Click to view evidence</b></summary>
