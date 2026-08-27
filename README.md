@@ -70,7 +70,7 @@ Sensitive information such as passwords, shared secrets, internal credentials, a
 - Created Windows Server 2025 VM
 - Configured static IPs and DHCP foundation
 <details>
-<summary><b>Click to view evidence</b></summary>
+<summary><b>View ESXi Host & Virtual Machine Provisioning Evidence</b></summary>
 
 ![ESXi Dashboard](Screenshots/ESXi%20Dashboard.png)
 ![ESXi VM List](Screenshots/ESXi-VM-List.png)
@@ -96,7 +96,7 @@ Sensitive information such as passwords, shared secrets, internal credentials, a
 
 
 <details>
-<summary><b>Click to view evidence</b></summary>
+<summary><b>View Switch VLAN, Trunking & Subinterface Configuration Evidence</b></summary>
 
 ![Switch Vlan Output](Screenshots/Switch-Vlan-Output.png)
 ![Switch Trunk Output](Screenshots/Switch-Trunk-Output.png)
@@ -109,7 +109,7 @@ Sensitive information such as passwords, shared secrets, internal credentials, a
 - Created management access to devices
 
 <details>
-<summary><b>Click to view evidence</b></summary>
+<summary><b>View SSH, Port Security & Device Hardening Evidence</b></summary>
 
 ![SSH Windows Server to Switch](Screenshots/SSH-WindowsServer-Switch.png)
 ![SSH Windows Server to Router](Screenshots/SSH-WindowsServer-Router.png)
@@ -124,7 +124,7 @@ Sensitive information such as passwords, shared secrets, internal credentials, a
 - Used PowerShell + CSV for bulk user creation
 
 <details>
-<summary><b>Click to view evidence</b></summary>
+<summary><b>View Active Directory Domain Controller services Evidence</b></summary>
 
 ![Active Directory OU](Screenshots/Active-Directory-OU.png)
 ![Group Policy Config](Screenshots/Group-Policy-Config.png)
@@ -140,7 +140,7 @@ Sensitive information such as passwords, shared secrets, internal credentials, a
 - Used Cisco privilege levels for full vs read-only access
 
 <details>
-<summary><b>Click to view evidence</b></summary>
+<summary><b>View RADIUS NPS Evidence</b></summary>
   
 ![NPS Radius Clients](Screenshots/Radius-Clients.png)
 ![NPS Radius Policy](Screenshots/Radius-Policy.png)
@@ -158,7 +158,7 @@ Sensitive information such as passwords, shared secrets, internal credentials, a
 - Used ACLs to restrict access
 
 <details>
-<summary><b>Click to view evidence</b></summary>
+<summary><b>View DMZ, OSPF, ACLs configuration</b></summary>
   
 ![DMZ Website](Screenshots/DMZ-Website.png)
 ![HTTPs Certificate Details ](Screenshots/HTTPs-Cert-Details.png)
@@ -175,7 +175,7 @@ Sensitive information such as passwords, shared secrets, internal credentials, a
 - Wazuh SIEM/log monitoring with agents
 
 <details>
-<summary><b>Click to view evidence</b></summary>
+<summary><b>View Web Server, SIEM Log Monitoring & OpenVAS Scan Evidence</b></summary>
 
 ![Nagios Dashboard](Screenshots/Nagios-Dashboard.png)
 ![OpenVas Scan Results](Screenshots/OpenVas-Scan-Result.png)
