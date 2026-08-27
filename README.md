@@ -66,9 +66,9 @@ Sensitive information such as passwords, shared secrets, internal credentials, a
 
 ## Network Architecture
 ### Phase 1 – Virtualization & Base Infrastructure
-Installed VMware ESXi 8 on Intel NUC hardware
-Created Windows Server 2025 VM
-Configured static IPs and DHCP foundation
+- Installed VMware ESXi 8 on Intel NUC hardware
+- Created Windows Server 2025 VM
+- Configured static IPs and DHCP foundation
 <details>
 <summary><b>Click to view evidence</b></summary>
 
@@ -79,9 +79,9 @@ Configured static IPs and DHCP foundation
 
 ### Phase 2 – VLAN Segmentation & Routing
 
-Created multiple VLANs for clients, servers, physical devices, parking lot, and DMZ
-Configured Cisco switch trunks and router-on-a-stick
-Enabled inter-VLAN routing
+- Created multiple VLANs for clients, servers, physical devices, parking lot, and DMZ
+- Configured Cisco switch trunks and router-on-a-stick
+- Enabled inter-VLAN routing
 <details>
 <summary><b>Vlan mapping table</b></summary>
   VLAN ID 	Name 	Description 	Subnet 
@@ -102,9 +102,9 @@ Enabled inter-VLAN routing
 </details>
 
 ### Phase 3 – Secure Network Device Management
-Configured SSH on router and switch
-Secured unused ports
-Created management access to devices
+- Configured SSH on router and switch
+- Secured unused ports
+- Created management access to devices
 
 <details>
 <summary><b>Click to view evidence</b></summary>
@@ -115,11 +115,11 @@ Created management access to devices
 </details>
 
 ### Phase 4 – Active Directory & Windows Server Services
-Installed AD DS
-Created domain/forest
-Added second domain controller
-Configured DNS, DHCP, OUs, GPOs
-Used PowerShell + CSV for bulk user creation
+- Installed AD DS
+- Created domain/forest
+- Added second domain controller
+- Configured DNS, DHCP, OUs, GPOs
+- Used PowerShell + CSV for bulk user creation
 
 <details>
 <summary><b>Click to view evidence</b></summary>
@@ -132,10 +132,10 @@ Used PowerShell + CSV for bulk user creation
 </details>
 
 ### Phase 5 – RADIUS / NPS Authentication
-Installed NPS on second domain controller
-Added router and switch as RADIUS clients
-Created policies for Network Engineers and Network Techs
-Used Cisco privilege levels for full vs read-only access
+- Installed NPS on second domain controller
+- Added router and switch as RADIUS clients
+- Created policies for Network Engineers and Network Techs
+- Used Cisco privilege levels for full vs read-only access
 
 <details>
 <summary><b>Click to view evidence</b></summary>
@@ -149,11 +149,11 @@ Used Cisco privilege levels for full vs read-only access
 </details>
 
 ### Phase 6 – DMZ, OSPF, ACLs
-Created VLAN 99 DMZ
-Imported CentOS web server appliance
-Hosted custom HTTPS website
-Configured OSPF Area 0
-Used ACLs to restrict access
+- Created VLAN 99 DMZ
+- Imported CentOS web server appliance
+- Hosted custom HTTPS website
+- Configured OSPF Area 0
+- Used ACLs to restrict access
 
 <details>
 <summary><b>Click to view evidence</b></summary>
@@ -166,11 +166,11 @@ Used ACLs to restrict access
 </details>
 
 ### Phase 7 – Additional Enterprise/Security Services
-Docker web server
-Nagios monitoring
-OpenVAS vulnerability scanning
-WordPress hosting
-Wazuh SIEM/log monitoring with agents
+- Docker web server
+- Nagios monitoring
+- OpenVAS vulnerability scanning
+- WordPress hosting
+- Wazuh SIEM/log monitoring with agents
 
 <details>
 <summary><b>Click to view evidence</b></summary>
