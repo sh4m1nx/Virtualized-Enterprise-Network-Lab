@@ -60,6 +60,11 @@ This repository is a portfolio version of my CYB242 Capstone project. The origin
 
 Sensitive information such as passwords, shared secrets, internal credentials, and full configuration details have been removed or sanitized.
 
+## Rack Setup
+
+![Physical Lab Rack - Cisco Router, Switch, and Intel NUC](Screenshots/Rack%20setup-NUC-Switch-Router.png)
+
+*Physical Hardware: Cisco 1941 Router, Catalyst 2960-X Switch, and Intel NUC ESXi Host.*
 ## Network Diagram 
   
 ![Network Diagram](Diagram/Network-Diagram.png)
