@@ -54,11 +54,12 @@ The goal of this project was to simulate a real-world enterprise network by comb
 - SIEM/log monitoring with Wazuh
 - Technical documentation and troubleshooting
 
-## Project Scope
+## Project Scope & Documentation
 
-This repository is a portfolio version of my CYB242 Capstone project. The original class report included detailed documentation, configuration evidence, validation screenshots, and troubleshooting notes. This GitHub version summarizes the project in a cleaner format for professional portfolio use.
+This repository serves as a comprehensive portfolio representation of an enterprise-grade virtualized network lab built on physical Intel NUC host hardware and Cisco enterprise equipment. The original report included detailed documentation, configuration evidence, validation screenshots, and troubleshooting notes.
+📄 **[View Full Technical Documentation (PDF)](Documentation/CYB242_Capstone_Full_Lab_Report.pdf)**
 
-Sensitive information such as passwords, shared secrets, internal credentials, and full configuration details have been removed or sanitized.
+>**Note:** Sensitive information such as passwords, shared secrets, internal credentials, and full configuration details have been removed or sanitized.
 
 ## Rack Setup
 
