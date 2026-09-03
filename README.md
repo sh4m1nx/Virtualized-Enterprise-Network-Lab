@@ -64,6 +64,29 @@ Sensitive information such as passwords, shared secrets, internal credentials, a
   
 ![Network Diagram](Diagram/Network-Diagram.png)
 
+ 
+## Network Table
+
+| Device | Type | VLAN | IP Address | Subnet Mask | Default Gateway |
+| --- | --- | --- | --- | --- | --- |
+| NUC1-WS | Physical | 10 | 10.115.10.20 (DHCP later) | 255.255.255.0 | 10.115.10.1 |
+| Cisco Router 1941 Series | Physical | 10/20/30/40/50 | 10.115.10.1 / 10.115.20.1 / 10.115.30.1 / 10.115.40.1 / 10.115.50.1 | 255.255.255.0 | |
+| Switch Catalyst 2960-X Series | Physical | 40 | 10.115.40.2 | 255.255.255.0 | 10.115.40.1 |
+| NUC2-ESXi | Physical | 40 | 10.115.40.10 | 255.255.255.0 | 10.115.40.1 |
+| WS2025-DC1 | VM | 30 | 10.115.30.10 | 255.255.255.0 | 10.115.30.1 |
+| WS2025-DC2 | VM | 30 | 10.115.30.11 | 255.255.255.0 | 10.115.30.1 |
+| Win10-Client | VM | 20 | 10.115.20.10 (DHCP later) | 255.255.255.0 | 10.115.20.1 |
+| TS-SWITCH-LINK | Physical | | 172.16.1.115 (router port) | 255.255.255.0 | |
+| DMZ Server | VM | 99 | 10.115.99.99 | 255.255.255.0 | 10.115.99.1 |
+| WebDev-Centos | VM | 30 | 10.115.30.15 | 255.255.255.0 | 10.115.30.1 |
+| Centos-Wordpress | VM | 30 | 10.115.30.20 | 255.255.255.0 | 10.115.30.1 |
+| Ubuntu-Nagios | VM | 30 | 10.115.30.25 | 255.255.255.0 | 10.115.30.1 |
+| Ubuntu-OpenVas | VM | 30 | 10.115.30.30 | 255.255.255.0 | 10.115.30.1 |
+| Wazuh Server | VM | 30 | 10.115.30.35 | 255.255.255.0 | 10.115.30.1 |
+| Wazuh-agent1 | VM | 30 | 10.115.30.40 | 255.255.255.0 | 10.115.30.1 |
+| Wazuh-agent2 | VM | 30 | 10.115.30.45 | 255.255.255.0 | 10.115.30.1 |
+
+
 ## Network Architecture
 ### Phase 1 – Virtualization & Base Infrastructure
 - Installed VMware ESXi 8 on Intel NUC hardware
