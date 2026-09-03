@@ -57,7 +57,7 @@ The goal of this project was to simulate a real-world enterprise network by comb
 ## Project Scope & Documentation
 
 This repository serves as a comprehensive portfolio representation of an enterprise-grade virtualized network lab built on physical Intel NUC host hardware and Cisco enterprise equipment. The original report included detailed documentation, configuration evidence, validation screenshots, and troubleshooting notes.
-📄 **[View Full Technical Documentation (PDF)](Documentation/CYB242_Capstone_Full_Lab_Report.pdf)**
+📄 **[View Full Technical Documentation (PDF)](Documentation/Enterprise_Network_Lab_Full_Report.pdf)**
 
 >**Note:** Sensitive information such as passwords, shared secrets, internal credentials, and full configuration details have been removed or sanitized.
 
